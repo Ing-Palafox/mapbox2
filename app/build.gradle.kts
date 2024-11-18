@@ -54,9 +54,16 @@ dependencies {
     implementation("com.mapbox.maps:android:11.8.0")
    // implementation ("com.mapbox.maps:plugin-annotation:11.8.0") // Para manejar los marcadores
 
+    // Retrofit para manejar solicitudes HTTP
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    //implementation ("com.mapbox.mapboxsdk:mapbox-sdk-services:5.9.0")
+    //implementation ("com.mapbox.sdk:mapbox-sdk-services:5.8.0")  // Agrega esta línea para la API de geocodificación
+    dependencies {
+       // implementation ("com.mapbox.geoapi:mapbox-geoapi:3.0.0")
+    }
 
-
+}
     //implementation ("com.mapbox.maps:android:10.13.1")
     //implementation ("com.mapbox.maps:plugin-annotation:10.13.1")
 
-}
